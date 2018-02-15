@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <meta http-equiv="Content-Type" name="format-detection" name="viewport" content="width=device-width" charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="row">
+
+                <div class="col-xs-12 haut">
+                    <div class="col-xs-12 text-center col-md-2">
+                        <input type="image" class="logo" src="./images/logo.png">
+                    </div>
+                    <div class="col-xs-12 text-center col-md-offset-5 col-md-2 col-md-offset-3">
+                        <h1>
+                            Exercice
+                        </h1>
+                    </div>
+                    <div class="col-xs-offset-4 col-xs-1">
+                        <button type="submit" class="btn btn-primary">
+                            Menu
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <form>
+                <div class="row frm">
+
+                    <div class="form-group col-xs-offset-2 col-xs-8 col-sm-offset-3 col-sm-6 col-sm-offset-3 col-md-offset-1 col-md-3">
+                        <label for="nom">Nom : </label>
+                        <input type="text" id="nom" class="form-control">
+                    </div>
+                    <div class="form-group col-xs-offset-2 col-xs-8 col-sm-offset-3 col-sm-6 col-sm-offset-3 col-md-offset-3 col-md-3">
+                        <label for="mail">Adresse e-mail :</label>
+                        <input type="email" class="form-control" id="mail">
+                    </div>
+
+                    <div class="form-group col-xs-offset-2 col-xs-8 col-sm-offset-3 col-sm-6 col-sm-offset-3 col-md-offset-1 col-md-3" >
+                        <label for="prenom">Prénom : </label>
+                        <input type="text" id="prenom" class="form-control">
+                    </div>
+                    <div class="form-group col-xs-offset-2 col-xs-8 col-sm-offset-3 col-sm-6 col-sm-offset-3 col-mdr-offset-3 col-md-3">
+                        <label for="password">Mot de passe : </label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+
+                    <div class="form-group col-xs-offset-2 col-xs-8 col-sm-offset-3 col-sm-3 col-md-offset-1 col-md-2">
+                        <label for="taille">Taille en cm : </label>
+                        <input type="number" id="taille" class="form-control">
+                    </div>
+                    <div class="form-group col-xs-offset-2 col-xs-8 col-sm-3 col-md-offset-4 col-md-2">
+                        <label for="poid">Poids : </label>
+                        <input type="number" id="poid" class="form-control">
+                    </div>
+
+                </div>
+                <div class="col-xs-offset-1 button">
+                    <button type="submit" class="btn btn-primary">
+                        Envoyer
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+
+<style type="text/css">
+h1
+{
+    margin-top: 7%;
+}
+
+body {
+    background-image: url("images/mdbd.png");
+
+}
+
+.container-fluid
+{
+    font-family: "Caviar Dreams";
+    color: white;
+}
+.button
+{
+    padding-top: 10%;
+
+
+}
+
+.logo
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    width: 100px;
+    height: auto;
+}
+
+.haut
+{
+    margin-top:4%;
+    margin-bottom:12%;
+}
+</style>
+</html>
